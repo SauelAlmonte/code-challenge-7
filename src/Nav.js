@@ -1,10 +1,8 @@
+import googleappmenu2 from './img/googleappmenu2.png';
+import ampljacket from './img/ampljacket.jpg';
+
 function Nav() {
-    //const tableMenu = document.querySelector("#book-table")
-    //   const nav = document.querySelector("#nav")
-     //  let headNav = document.querySelector('#head-nav')
-       // tableMenu.addEventListener( "click",()=>{
-       //     nav.classList.toggle('show-sliding-menu')
-       //     headNav.innerHTML='Book a Table'})
+   
        return (
            <>
                <nav className="" id="nav">
@@ -19,11 +17,11 @@ function Nav() {
                             <p>Gmail</p>
                             <p>Images</p>
                             <p>
-                                <abbr title="Google apps"></abbr><img src="img/googleappmenu2.png" id="image1">
+                                <abbr title="Google apps"></abbr><img src={googleappmenu2} id="image1">
 
                             </p>
 
-                            <img src="img/AMPLJacket.jpg" id="image2">
+                            <img src={ampljacket} id="image2">
 
                         </div>
                 </nav>

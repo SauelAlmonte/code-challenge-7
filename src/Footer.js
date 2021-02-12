@@ -1,12 +1,7 @@
 function Footer() {
-    //const tableMenu = document.querySelector("#book-table")
-    //   const nav = document.querySelector("#nav")
-     //  let headNav = document.querySelector('#head-nav')
-       // tableMenu.addEventListener( "click",()=>{
-       //     nav.classList.toggle('show-sliding-menu')
-       //     headNav.innerHTML='Book a Table'})
+
        return (
-           
+
            <>
                
                <div className="" id="footer">
