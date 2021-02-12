@@ -6,13 +6,9 @@
 
 ---
 
-Title 1
+1. The old project I decided to refactor using react was code challenge 2, recreate google page
 
----
+2. When through proper steps in order to refactor, I followed useful guides to create and deploy.
 
-Title 2
 
----
-
-Title 3
 
