@@ -5,23 +5,23 @@ function Nav() {
    
        return (
            <>
-               <nav className="" id="nav">
+               <nav className="flex justify-between text-sm text-gray-700">
 
                         
-                        <div className="nav-position" id="left">
-                            <p>About</p>
-                            <p>Store</p>
+                        <div className="flex items-center p-6">
+                            <p className="block p-3">About</p>
+                            <p className="block p-3">Store</p>
                         </div>
 
-                        <div className="nav-position" id="right">
-                            <p>Gmail</p>
-                            <p>Images</p>
+                        <div className="flex items-center p-6">
+                            <p className="block p-3">Gmail</p>
+                            <p className="block p-3">Images</p>
                             <p>
-                                <abbr title="Google apps"></abbr><img src={googleappmenu2} id="image1">
+                                <img className="w-6 h-6 opacity-50 block mr-3" src={googleappmenu2} alt="google-app"></img>
 
                             </p>
 
-                            <img src={ampljacket} id="image2">
+                            <img className="rounded-full w-8 h-8" src={ampljacket} alt="ampljacket"></img>
 
                         </div>
                 </nav>
